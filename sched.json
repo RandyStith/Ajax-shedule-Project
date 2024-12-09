@@ -1,0 +1,54 @@
+{
+    "schedule": [
+      {
+        "class": "Physical Education",
+        "teacher": "Debra Razzino",
+        "room": "Gymnasium",
+        "period": 1,
+        "days": ["A", "B", "C", "E"]
+      },
+      {
+        "class": "AP Physics Lab",
+        "teacher": "Paul Reardon",
+        "room": "G202",
+        "period": 2,
+        "days": ["A", "B", "D", "E", "F"]
+      },
+      {
+        "class": "NJIT WDPP",
+        "teacher": "Megan Herbert",
+        "room": "B114",
+        "period": 3,
+        "days": ["A", "C", "D", "E", "G"]
+      },
+      {
+        "class": "BCC English",
+        "teacher": "Lisa Lomovsky",
+        "room": "E107",
+        "period": 4,
+        "days": ["B", "C", "D", "F", "G"]
+      },
+      {
+        "class": "Fine Art 1",
+        "teacher": "Alexis Roth",
+        "room": "A103",
+        "period": 5,
+        "days": ["A", "B", "D", "E", "G"]
+      },
+      {
+        "class": "Sociology",
+        "teacher": "Alexander Dohan",
+        "room": "G106",
+        "period": 6,
+        "days": ["A", "C", "D", "F", "G"]
+      },
+      {
+        "class": "AP Calculus AB",
+        "teacher": "Phillip Drummond",
+        "room": "D219",
+        "period": 7,
+        "days": ["B", "C", "E", "F", "G"]
+      }
+    ]
+  }
+  

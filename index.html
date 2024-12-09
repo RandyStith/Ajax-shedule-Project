@@ -1,73 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Where Should I Be Right Now?</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    
-    <h1 style="text-align: center;">2024-2025 FTHS SCHEDULE</h1>
+    <div class="container">
+        <h1 class="text-center">Where Should I Be Right Now?</h1>
 
-    <div class="month">      
-      <ul>
-        <li class="prev">&#10094;</li>
-        <li class="next">&#10095;</li>
-        <li>A
-          <br>
-          DAY
-        </li>
-      </ul>
+        <div class="form-group">
+            <label for="dayInput">Select Day (A-G):</label>
+            <input type="text" id="dayInput" class="form-control" placeholder="Enter a day (A-G)">
+            <button id="submitDay" class="btn btn-primary mt-2">Show Schedule</button>
+        </div>
+        <div class="schedule">
+            <h3 class="text-center">Your Schedule for the Day</h3>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                       
+                        <th>Time</th>
+                        <th>Period</th>
+                        <th>Class</th>
+                        <th>Teacher</th>
+                        <th>Room</th>
+                    </tr>
+                  
+                   
+                </thead>
+                <tbody id="scheduleList"></tbody>
+            </table>
+        </div>
     </div>
-   
-    <ul class="weekdays">
-      <li style="margin-left: 4%;">Time</li>
-      <li>Class</li>
-      <li>Period</li>
-      <li>Room</li>
-      <li>Teacher</li>
-    </ul>
-    
-    <ul class="days">  
-      <li style="margin-left: 4%;">Block 1<br>8:24am-9:31am</li>
-      <li>Physical Education</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <br>
-      <li style="margin-left: 4%;">6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-      <br>
-      <li style="margin-left: 4%;">11</li>
-      <li>12</li>
-      <li>13</li>
-      <li>14</li>
-      <li>15</li>
-      <br>
-      <li style="margin-left: 4%;">16</li>
-      <li>17</li>
-      <li>18</li>
-      <li>19</li>
-      <li>20</li>
-      <br>
-      <li style="margin-left: 4%;">21</li>
-      <li>22</li>
-      <li>23</li>
-      <li>24</li>
-      <li>25</li>
-      <br>
-      <li style="margin-left: 4%;">26</li>
-      <li>27</li>
-      <li>28</li>
-      <li>29</li>
-      <li>30</li>
-
-    </ul>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
