@@ -1,11 +1,11 @@
 {
     "schedule": [
       {
+        "days": ["A", "B", "C", "E"],
         "class": "Physical Education",
         "teacher": "Debra Razzino",
         "room": "Gymnasium",
-        "period": 1,
-        "days": ["A", "B", "C", "E"]
+        "period": 1
       },
       {
         "class": "AP Physics Lab",
