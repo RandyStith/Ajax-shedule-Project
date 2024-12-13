@@ -1,5 +1,6 @@
 {
     "schedule": [
+   
       {
         "days": ["A", "B", "C", "E"],
         "class": "Physical Education",
@@ -29,26 +30,34 @@
         "days": ["B", "C", "D", "F", "G"]
       },
       {
+        "days": ["A", "B", "C", "D", "E", "F", "G"],
+        "class": "Lunch",
+        "teacher": "N/A",
+        "room": "Cafeteria",
+        "period": 5
+      },
+      {
         "class": "Fine Art 1",
         "teacher": "Alexis Roth",
         "room": "A103",
-        "period": 5,
+        "period": 6,
         "days": ["A", "B", "D", "E", "G"]
       },
       {
         "class": "Sociology",
         "teacher": "Alexander Dohan",
         "room": "G106",
-        "period": 6,
+        "period": 7,
         "days": ["A", "C", "D", "F", "G"]
       },
       {
         "class": "AP Calculus AB",
         "teacher": "Phillip Drummond",
         "room": "D219",
-        "period": 7,
+        "period": 8,
         "days": ["B", "C", "E", "F", "G"]
       }
     ]
+  
   }
   
